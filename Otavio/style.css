@@ -1,0 +1,24 @@
+:root{
+    --cor-de-fundo: #1e1e1e;
+    --verde: #6fff57;
+    --branco: #ffffff;
+    --botao-ativo: #3a375e;
+    --botao-inativo: rgba(58,55,94,0.5);
+    --textofundo:rgba(58,55,94,0.3);
+}
+
+section{
+    background-color: var(--branco);
+}
+
+body{
+    background-color: var(--cor-de-fundo);
+}
+
+button:disabled{
+    background-color: var(--botao-inativo);
+}
+
+button{
+    background-color: var(--botao-ativo);
+}
